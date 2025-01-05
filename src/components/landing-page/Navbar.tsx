@@ -10,8 +10,12 @@ export const Navbar = ({ isOpen, setIsOpen }: PropsNav) => {
         setIsOpen((prev) => !prev);
     };
     return ( 
+<<<<<<< HEAD
         <nav className="bg-[#F4F4F4] w-full fixed z-[999999999]">
             <div className="bg-[#F4F4F4] container mx-auto w-full flex justify-between border-b border-b-[#D6DAE1] items-center px-4 py-[20px] md:py-[50px]">
+=======
+        <nav className="container  mx-auto flex justify-between border-b border-b-[#D6DAE1] items-center py-[50px]">
+>>>>>>> 254348c75fb67869042614e956d63c0ac2d8ea31
             <BrandLogo />
             <div className="cursor-pointer w-[30px] p-3 z-[999999] h-[30px] relative md:hidden flex items-center justify-center" onClick={toggleMenu}>
                     <motion.div
