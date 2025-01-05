@@ -4,7 +4,7 @@ export const Testimonial = () => {
     return (
         <section className="bg-[#F4F4F4] rounded-t-[96px] py-[128px] px-[72px] pb-[256px]">
             <h2 className="text-[30px]/[34px] font-bold text-[#484848]">Testimonial from <span className="text-[#006494]">Partners</span></h2>
-            <p className="text-[36px]/[54px] font-normal text-[#4D4D4D] mt-[64px] max-w-[1140px]">
+            <p className="text-[25px] md:text-[36px]/[54px] font-normal text-[#4D4D4D] mt-[64px] max-w-[1140px]">
                 "I was skeptical about switching IT providers, but their hands-on approach won me over. When our servers crashed during peak season, their team was on it within minutes and had us back up running before we lost any business. That level of reliability is priceless."
             </p>
             <div className="flex items-center justify-between mt-[107px]">

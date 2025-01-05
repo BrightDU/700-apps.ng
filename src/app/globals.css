@@ -96,3 +96,7 @@ html{
   background-color: #02A4EF; /* Optional: Highlight active dot color */
   opacity: 1;
 }
+
+.banner{
+  background-image: url("/assets/mask-group.svg"), url("/assets/medium-shot.svg");
+}

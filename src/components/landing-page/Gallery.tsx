@@ -2,7 +2,7 @@
 
 export const Gallery = () => {
     return (
-        <section className='mt-[173px]' id='gallery'>
+        <section className='mt-24 md:mt-[173px]' id='gallery'>
             <h2 className='text-[30px]/[32px] font-bold text-[#4D4D4D] mb-[64px] text-center'>Gallery</h2>
             <ImageCarousel />
         </section>

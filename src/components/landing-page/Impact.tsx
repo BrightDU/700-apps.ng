@@ -5,12 +5,12 @@ export const Impact = () => {
         <section className="">
             <div className="w-full h-1 border-b border-black mb-[58px]"></div>
 
-            <div className="flex justify-between items-start">
+            <div className="flex flex-col md:flex-row gap-10 justify-between items-center md:items-start">
                 <div>
                     <h2 className="text-[30px]/[34px] font-bold">Reflecting on our <span className="text-[#006494]">Journey</span></h2>
                     <p className="text-[22px]/[28px] font-normal text-[#484848]">The impact we&apos;ve made so far</p>
                 </div>
-                <div className=" grid grid-cols-2 gap-20">
+                <div className=" grid grid-cols-2 gap-9 md:gap-20">
                     {impact.map(item => (
                         <ImpactItem {...item} />
                     ))}
@@ -28,8 +28,8 @@ type ImpactType = {
 const ImpactItem = ({number, label}: ImpactType) => {
     return (
         <div className="flex flex-col gap-[20px]">
-            <p className="bebas-neue-regular text-[81px]/[45px] font-normal text-[#484848]">{number.toLocaleString('en-US')}</p>
-            <p className="text-[22px]/[28px] font-normal text-[#6C6C6C]">{label}</p>
+            <p className="bebas-neue-regular text-[45px] md:text-[81px]/[45px] font-normal text-[#484848]">{number.toLocaleString('en-US')}</p>
+            <p className="text-[18px] md:text-[22px]/[28px] font-normal text-[#6C6C6C]">{label}</p>
         </div>
     );
 }
