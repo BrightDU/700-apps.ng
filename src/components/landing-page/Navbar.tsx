@@ -19,7 +19,7 @@ export const Navbar = ({ isOpen, setIsOpen }: PropsNav) => {
             <BrandLogo />
             <div className="cursor-pointer w-[30px] p-3 z-[999999] h-[30px] relative md:hidden flex items-center justify-center" onClick={toggleMenu}>
                     <motion.div
-                        className={`absolute right-0 ${isOpen ? "bg-black" : "bg-black"} z-[99999] md:w-[42px] w-[20px] h-[2px] md:h-[4px]`}
+                         className={`absolute right-0 ${isOpen ? "bg-black" : "bg-black"} z-[99999] md:w-[42px] w-[20px] h-[2px] md:h-[4px]`}
                         initial={false}
                         animate={{
                             rotate: isOpen ? 45 : 0,
