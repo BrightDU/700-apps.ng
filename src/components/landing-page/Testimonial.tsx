@@ -9,7 +9,7 @@ export const Testimonial = () => {
             </p>
             <div className="flex items-center justify-between mt-[107px]">
                 <div className="flex items-center">
-                    <Image src="/assets/" width={120} height={120} alt="" />
+                    {/* <Image src="/assets/" width={120} height={120} alt="" /> */}
                     <div className="text-[#484848] text-[22px]/[28px] ">
                         <h3 className="font-semibold">Aisha Asemota</h3>
                         <p className="font-normal">Pwc Lagos, Nigeria</p>
